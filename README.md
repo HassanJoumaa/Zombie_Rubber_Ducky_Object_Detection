@@ -1,2 +1,6 @@
-# Zombie_Rubber_Ducky_Object_Detection
-Using Tensorflow's Object Detection API to Train a Customized Model in Eager Mode
+# Zombie Ruber Ducky Detection
+
+We will use Tensorflow's Object Detection API and retrain [RetinaNet](https://arxiv.org/abs/1708.02002) to spot Zombies and Rubber Duckies using just 5 training images of each.
+
+We will setup the model to restore pretrained weights and fine tune the classification layers.
+
